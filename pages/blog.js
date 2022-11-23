@@ -2,7 +2,6 @@ import NextLink from 'next/link'
 import {
   Container,
   Heading,
-  SimpleGrid,
   Image,
   useColorModeValue,
   Text,
@@ -20,7 +19,7 @@ const Blogs = () => (
         Popular Posts
       </Heading>
       <Section delay={0.1}>
-        <Image src={useColorModeValue('/logo1.png', '/logo2.png')} />
+        <Image src={useColorModeValue('/logo1.png', '/logo2.png')} alt="logo" />
         <Center>
           <Box mt={-5}>
             <Text ml={9} fontSize={20}>
