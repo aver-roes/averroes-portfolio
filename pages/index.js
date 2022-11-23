@@ -165,7 +165,7 @@ const Page = () => {
           <BioSection>
             <BioYear>2020</BioYear>
             Graduated from Xidian University for Science and Technology with a
-            Bachelor's Degree, Among the top three students.
+            Bachelor&apos;s Degree, Among the top three students.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
