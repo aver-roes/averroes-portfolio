@@ -1,0 +1,32 @@
+{
+  "name": "averroes-portfolio",
+  "version": "1.0.0",
+  "description": "Averroes's website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "buildd": "next build",
+    "prettier": "prettier -write",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Averroes",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.3.2",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.3.2",
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-next": "^12.3.0",
+    "prettier": "^2.7.1"
+  }
+}
